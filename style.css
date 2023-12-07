@@ -280,11 +280,11 @@ section .title::after{
     color: #00A8CC;
 }
 .services .serv-content .card{
-    width: calc(33% - 20px);
+    width: calc(33% - 22px);
     background: #ffffff;
     font-family: 'Roboto Slab';
     text-align: left;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 30px 35px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -312,7 +312,6 @@ section .title::after{
     font-weight: 500;
     margin: 5px 3px 7px 0;
     text-align: center;
-   
     font-family: Georgia, 'Times New Roman', Times, serif ;
 }
 
@@ -347,10 +346,9 @@ section .title::after{
 }
 .teams .carousel .card ul{
     background: #feffff;
-    border: 6px;
-    padding: 55px 55px 45px 55px;;
+    border: 8px;
+    padding: 55px 55px 55px 55px;;
     text-align: left;
-    
     transition: all 0.3s ease;
 }
 
@@ -361,14 +359,14 @@ section .title::after{
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+/* .teams .carousel .card:hover .box{
     transform: scale(1.05);
-}
+} */
 .teams .carousel .card .text {
     font-size: 30px;
     font-weight: 500;
-    margin: 25px;
-    padding-left: 35px;
+    margin: 28px;
+    padding-left: 45px;
 }
 .teams .carousel .card img{
     height: 50%;
@@ -383,7 +381,7 @@ section .title::after{
 }
 .owl-dots{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 /* contact section styling */
